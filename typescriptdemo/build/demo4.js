@@ -10,6 +10,7 @@ greet();
 function multiply(a, b) {
     return a * b;
 }
+console.log(multiply(5, 5));
 function add(a, b, c) {
     return a + b + (c || 0);
 }

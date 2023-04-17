@@ -1,0 +1,46 @@
+<!--  String interpolation -->
+<p>Server with id {{ serverId }} is {{ serverStatus }}</p>
+<p>The Current status is {{ getServerStatus() }}</p>
+
+<!-- Property Binding -->
+
+<div class="container">
+  <div class="row">
+    <!-- <div class="col">
+      <label for="servername">ServerName</label>
+    </div> -->
+    <div class="col">
+      <input
+        type="text"
+        class="form-control"
+        id="servername"
+        (input)="onUpdateServerName($event)"
+        placeholder="Server Name"
+      />
+    </div>
+    <div class="col">
+      <input
+        type="text"
+        id="serverdiscription"
+        class="form-control"
+        [(ngModel)]="serverdescription"
+        placeholder="Server Description"
+      />
+    </div>
+    <div class="col">
+      <button class="btn btn-info" [disabled]="serverStatus == 'offline'">
+        {{ serverName }}-{{ serverId }}
+      </button>
+    </div>
+
+    <div class="col">
+      <small class="form-text text-muted">{{ serverdescription }}</small>
+    </div>
+
+    <div class="col">
+      <button class="btn btn-primary btn-sm" (click)="onPowerButtonClick()">
+        {{ onclickbutton }}
+      </button>
+    </div>
+  </div>
+</div>
