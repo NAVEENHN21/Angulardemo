@@ -37,6 +37,27 @@
       <small class="form-text text-muted">{{ serverdescription }}</small>
     </div>
 
+    <div class="col" *ngIf="serverStatus == 'online'; else serveroffline">
+      <button
+        class="btn btn-primary btn-lg"
+        (click)="onPowerButtonClick()"
+        [ngStyle]="{ backgroundColor: getServerColour() }"
+      >
+        CPU 50% Memory 40%
+      </button>
+    </div>
+    <ng-template #serveroffline>
+      <div class="col">
+        <button
+          class="btn btn-primary btn-lg"
+          (click)="onPowerButtonClick()"
+          [ngStyle]="{ backgroundColor: getServerColour() }"
+        >
+          Server not Running
+        </button>
+      </div>
+    </ng-template>
+
     <div class="col">
       <button class="btn btn-primary btn-sm" (click)="onPowerButtonClick()">
         {{ onclickbutton }}

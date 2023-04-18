@@ -35,4 +35,10 @@ export class ServerComponent implements OnInit {
   onUpdateServerName(event: any) {
     this.serverName = event.target.value;
   }
+  getServerColour() {
+    return this.serverStatus == 'online' ? 'green' : 'red';
+  }
+  getServerClass() {
+    return this.serverStatus == 'online' ? 'bg-danger' : 'bg-success';
+  }
 }
