@@ -5,7 +5,12 @@
 <button class="btn btn-sm btn-danger" (click)="onResetLogs()">
   Reset Logs
 </button>
-<label style="padding: 10px" *ngIf="showSecret"
+<label
+  style="padding: 10px"
+  *ngIf="showSecret"
+  appBetterHighlight
+  [defaultColor]="'yellow'"
+  [highlightColor]="'red'"
   >This is the world's biggest secret</label
 >
 <p

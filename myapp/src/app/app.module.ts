@@ -12,6 +12,11 @@ import { ClicklogsComponent } from './clicklogs/clicklogs.component';
 import { AddproductComponent } from './products/addproduct/addproduct.component';
 import { ProductComponent } from './products/product/product.component';
 import { LifecycledemoComponent } from './lifecycledemo/lifecycledemo.component';
+import { BasicHighlightDirective } from './CustomDirectives/BasicHighlightDirective';
+import { BetterHighlightDirective } from './CustomDirectives/better-highlight.directive';
+import { NewaccountComponent } from './accounts/newaccount/newaccount.component';
+import { AccountComponent } from './accounts/account/account.component';
+import { AccountsComponent } from './accounts/accounts.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +30,11 @@ import { LifecycledemoComponent } from './lifecycledemo/lifecycledemo.component'
     AddproductComponent,
     ProductComponent,
     LifecycledemoComponent,
+    BasicHighlightDirective,
+    BetterHighlightDirective,
+    NewaccountComponent,
+    AccountComponent,
+    AccountsComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
