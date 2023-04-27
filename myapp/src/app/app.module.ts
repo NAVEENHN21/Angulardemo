@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
@@ -25,6 +26,8 @@ import { PipesdemoComponent } from './pipesdemo/pipesdemo.component';
 import { ShortenPipe } from './commonpipes/shorten-pipe';
 import { FilterPipe } from './commonpipes/filter.pipe';
 import { ReversePipe } from './commonpipes/reverse.pipe';
+import { BlogpostsComponent } from './blogposts/blogposts.component';
+import { BlogpostComponent } from './blogposts/blogpost/blogpost.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -36,6 +39,7 @@ const appRoutes: Routes = [
   { path: 'tforms', component: TformsComponent },
   { path: 'rforms', component: RformsComponent },
   { path: 'pdemo', component: PipesdemoComponent },
+  { path: 'bpost', component: BlogpostsComponent },
 ];
 
 @NgModule({
@@ -62,12 +66,15 @@ const appRoutes: Routes = [
     ShortenPipe,
     FilterPipe,
     ReversePipe,
+    BlogpostsComponent,
+    BlogpostComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
     ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

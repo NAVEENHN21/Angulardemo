@@ -1,0 +1,36 @@
+{
+  "employess": [
+    {
+      "id": 1,
+      "firstname": "Suman",
+      "lastname": "H N"
+    },
+    {
+      "id": 2,
+      "firstname": "Anu",
+      "lastname": "Gowda"
+    },
+    {
+      "id": 3,
+      "firstname": "Sunil",
+      "lastname": "H V"
+    },
+    {
+      "id": 4,
+      "firstname": "Anil",
+      "lastname": "H V"
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1
+    }
+  ],
+  "courses": []
+}
