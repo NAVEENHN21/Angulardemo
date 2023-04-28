@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "questionText": "Which country won the 2018 FIFA World Cup?",
+      "options": [
+        {
+          "text": "Brazil"
+        },
+        {
+          "text": "Germany"
+        },
+        {
+          "text": "France",
+          "correct": true
+        },
+        {
+          "text": "Spain"
+        }
+      ],
+      "explanation": "France won the 2018 FIFA World Cup, defeating Croatia 4-2 in the final."
+    },
+    {
+      "questionText": "Who is the current world No. 1 tennis player in men's singles?",
+      "options": [
+        {
+          "text": "Rafael Nadal"
+        },
+        {
+          "text": "Novak Djokovic",
+          "correct": true
+        },
+        {
+          "text": "Roger Federer"
+        },
+        {
+          "text": "Dominic Thiem"
+        }
+      ],
+      "explanation": "Novak Djokovic is the current world No. 1 tennis player in men's singles, having held the top spot since February 2020."
+    },
+    {
+      "questionText": "In what year did Michael Jordan win his first NBA championship with the Chicago Bulls?",
+      "options": [
+        {
+          "text": "1988"
+        },
+        {
+          "text": "1991",
+          "correct": true
+        },
+        {
+          "text": "1993"
+        },
+        {
+          "text": "1996"
+        }
+      ],
+      "explanation": "Michael Jordan won his first NBA championship with the Chicago Bulls in 1991, beginning a run of six championships in eight years for the team."
+    },
+    {
+      "questionText": "Which country has won the most Olympic gold medals in men's ice hockey?",
+      "options": [
+        {
+          "text": "Canada",
+          "correct": true
+        },
+        {
+          "text": "Russia"
+        },
+        {
+          "text": "United States"
+        },
+        {
+          "text": "Sweden"
+        }
+      ],
+      "explanation": "Canada has won the most Olympic gold medals in men's ice hockey, with a total of 9 golds."
+    },
+    {
+      "questionText": "Who won the men's singles title at the 2021 Wimbledon Championships?",
+      "options": [
+        {
+          "text": "Novak Djokovic",
+          "correct": true
+        },
+        {
+          "text": "Roger Federer"
+        },
+        {
+          "text": "Rafael Nadal"
+        },
+        {
+          "text": "Dominic Thiem"
+        }
+      ],
+      "explanation": "Novak Djokovic won the men's singles title at the 2021 Wimbledon Championships, defeating Matteo Berrettini in the final."
+    }
+  ]
+}
