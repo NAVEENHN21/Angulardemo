@@ -1,3 +1,3 @@
 FROM nginx
-COPY dist/myapp/ /usr/share/mginx/html/
+COPY dist/myapp/ /usr/share/nginx/html/
 
